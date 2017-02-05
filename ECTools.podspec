@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ECTools"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "收集各种工具!"
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/EricYellow/ECTools.git", :commit => "2fee3ed8fb4211365d6ead5c4a4191d493772650" }
+  s.source       = { :git => "https://github.com/EricYellow/ECTools.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
