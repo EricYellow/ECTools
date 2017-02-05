@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   s.summary      = "收集各种工具!"
 
   s.description  = <<-DESC
+			收集各种实用的OC工具类,方便跨项目使用!
                    DESC
 
   s.homepage     = "https://github.com/EricYellow/ECTools"

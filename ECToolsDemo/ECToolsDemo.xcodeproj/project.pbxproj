@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A05779D1E470B6D00CF5CFD /* ECUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A05779C1E470B6D00CF5CFD /* ECUtility.m */; };
 		1AD1C41E1E4706D50095CBF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD1C41D1E4706D50095CBF8 /* main.m */; };
 		1AD1C4211E4706D50095CBF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD1C4201E4706D50095CBF8 /* AppDelegate.m */; };
 		1AD1C4241E4706D50095CBF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD1C4231E4706D50095CBF8 /* ViewController.m */; };
@@ -14,7 +15,6 @@
 		1AD1C4291E4706D50095CBF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD1C4281E4706D50095CBF8 /* Assets.xcassets */; };
 		1AD1C42C1E4706D50095CBF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD1C42A1E4706D50095CBF8 /* LaunchScreen.storyboard */; };
 		1AD1C4371E4706D50095CBF8 /* ECToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD1C4361E4706D50095CBF8 /* ECToolsDemoTests.m */; };
-		1AD1C4441E4707060095CBF8 /* ECUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD1C4431E4707060095CBF8 /* ECUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A05779B1E470B6D00CF5CFD /* ECUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECUtility.h; sourceTree = "<group>"; };
+		1A05779C1E470B6D00CF5CFD /* ECUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECUtility.m; sourceTree = "<group>"; };
 		1AD1C4191E4706D50095CBF8 /* ECToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD1C41D1E4706D50095CBF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1AD1C41F1E4706D50095CBF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,8 +43,6 @@
 		1AD1C4321E4706D50095CBF8 /* ECToolsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECToolsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD1C4361E4706D50095CBF8 /* ECToolsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECToolsDemoTests.m; sourceTree = "<group>"; };
 		1AD1C4381E4706D50095CBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AD1C4421E4707060095CBF8 /* ECUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECUtility.h; sourceTree = "<group>"; };
-		1AD1C4431E4707060095CBF8 /* ECUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECUtility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +63,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A05779A1E470B6D00CF5CFD /* ECTools */ = {
+			isa = PBXGroup;
+			children = (
+				1A05779B1E470B6D00CF5CFD /* ECUtility.h */,
+				1A05779C1E470B6D00CF5CFD /* ECUtility.m */,
+			);
+			name = ECTools;
+			path = ../ECTools;
+			sourceTree = "<group>";
+		};
 		1AD1C4101E4706D50095CBF8 = {
 			isa = PBXGroup;
 			children = (
-				1AD1C4411E4706DE0095CBF8 /* ECTools */,
+				1A05779A1E470B6D00CF5CFD /* ECTools */,
 				1AD1C41B1E4706D50095CBF8 /* ECToolsDemo */,
 				1AD1C4351E4706D50095CBF8 /* ECToolsDemoTests */,
 				1AD1C41A1E4706D50095CBF8 /* Products */,
@@ -113,15 +123,6 @@
 				1AD1C4381E4706D50095CBF8 /* Info.plist */,
 			);
 			path = ECToolsDemoTests;
-			sourceTree = "<group>";
-		};
-		1AD1C4411E4706DE0095CBF8 /* ECTools */ = {
-			isa = PBXGroup;
-			children = (
-				1AD1C4421E4707060095CBF8 /* ECUtility.h */,
-				1AD1C4431E4707060095CBF8 /* ECUtility.m */,
-			);
-			path = ECTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +231,7 @@
 			files = (
 				1AD1C4241E4706D50095CBF8 /* ViewController.m in Sources */,
 				1AD1C4211E4706D50095CBF8 /* AppDelegate.m in Sources */,
-				1AD1C4441E4707060095CBF8 /* ECUtility.m in Sources */,
+				1A05779D1E470B6D00CF5CFD /* ECUtility.m in Sources */,
 				1AD1C41E1E4706D50095CBF8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
