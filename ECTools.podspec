@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author             = { 'Eric' => 'hjphfut@163.com' }
   s.platform     = :ios, '7.0'
   s.source       = { :git => 'https://github.com/EricYellow/ECTools.git', :tag => s.version }
-  s.source_files  =  'ECTools/**'
+  s.source_files  =  'ECTools/*'
   s.requires_arc = true
   
 end
