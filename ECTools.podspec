@@ -2,28 +2,35 @@
 
 Pod::Spec.new do |s|
 
- s.name         = 'ECTools'
+ 
 
-  s.version      = '1.0.0'
+  s.name         = "ECTools"
+  s.version      = "1.0.0"
+  s.summary      = "收集各种工具!"
 
-  s.summary      = '收集各种工具!'
-
+ 
   s.description  = <<-DESC
-			收集各种实用的OC工具类,方便跨项目使用!
+                   collection of Tools
                    DESC
 
-  s.homepage     = 'https://github.com/EricYellow/ECTools'
+  s.homepage     = "https://github.com/EricYellow/ECTools"
+ 
+  s.license      = "MIT"
+ 
+  s.author             = { "Eric" => “hjphfut@163.com" }
+  
+  s.platform     = :ios, "7.0"
 
-  s.license      = 'MIT'
+  
+  s.source       = { :git => "https://github.com/EricYellow/ECTools.git", :tag => s.version }
+  
 
-  s.author             = { 'Eric' => 'hjphfut@163.com' }
+  s.source_files  = "ECTools/*.{h,m}"
 
-  s.platform     = :ios, '7.0'
-
-  s.source       = { :git => 'https://github.com/EricYellow/ECTools.git', :tag => s.version }
-
-  s.source_files  = 'ECTools'
-
+ 
   s.requires_arc = true
+
+  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  # s.dependency "JSONKit", "~> 1.4"
 
 end
