@@ -9,5 +9,7 @@
 #import "ECUtility.h"
 
 @implementation ECUtility
-
++ (void)test{
+    NSLog(@"测试....");
+}
 @end

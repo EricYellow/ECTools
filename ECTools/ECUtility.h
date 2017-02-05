@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface ECUtility : NSObject
-
++ (void)test;
 @end
