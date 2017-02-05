@@ -30,6 +30,7 @@
 /* Begin PBXFileReference section */
 		1A05779F1E470CAA00CF5CFD /* ECUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECUtility.h; sourceTree = "<group>"; };
 		1A0577A01E470CAA00CF5CFD /* ECUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECUtility.m; sourceTree = "<group>"; };
+		1A0577A51E47175300CF5CFD /* ECTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECTools.h; sourceTree = "<group>"; };
 		1AD1C4191E4706D50095CBF8 /* ECToolsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECToolsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD1C41D1E4706D50095CBF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1AD1C41F1E4706D50095CBF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 			children = (
 				1A05779F1E470CAA00CF5CFD /* ECUtility.h */,
 				1A0577A01E470CAA00CF5CFD /* ECUtility.m */,
+				1A0577A51E47175300CF5CFD /* ECTools.h */,
 			);
 			path = ECTools;
 			sourceTree = "<group>";
