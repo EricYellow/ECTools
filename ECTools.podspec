@@ -16,7 +16,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => 'https://github.com/EricYellow/ECTools.git', :tag => s.version }
 
-  s.source_files  =  'ECTools/**/*.{h,m}'
+  s.public_header_files = 'ECTools/ECTools.h'
+  s.source_files = 'ECTools/ECTools.h'
 
   s.requires_arc = true
   
